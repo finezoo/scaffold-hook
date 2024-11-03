@@ -48,7 +48,7 @@ export const ContractUI = ({ address, abi, contractName, className = "" }: Contr
       setEventLogs(events);
     };
     fetchEvents().then(() => setLoading(false));
-  }, [deployedContractData]);
+  }, []);
 
   // useEventWatch({
   //   deployedContractData,

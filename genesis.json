@@ -1,4 +1,7 @@
 {
+  "config": {
+    "chainId": 31337
+  },
   "alloc": {
     "0x2DAFBDF11A8Cf84c372539A38D781D8248399AE3": {
       "balance": "0x0",
