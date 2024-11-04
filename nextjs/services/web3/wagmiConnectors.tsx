@@ -19,18 +19,40 @@ import { getTargetNetwork } from "~~/utils/scaffold-eth";
 const configuredNetwork = getTargetNetwork();
 const { onlyLocalBurnerWallet } = scaffoldConfig;
 
+const arbitrumSepolia = {
+  id: 421614,
+  name: "Arbitrum Sepolia",
+  network: "arbitrum-sepolia",
+  nativeCurrency: {
+    name: "Arbitrum Sepolia Ether",
+    symbol: "ETH",
+    decimals: 18,
+  },
+  rpcUrls: {
+    alchemy: {
+      http: ["https://arb-sepolia.g.alchemy.com/v2"],
+      webSocket: ["wss://arb-sepolia.g.alchemy.com/v2"],
+    },
+    infura: {
+      http: ["https://arbitrum-sepolia.infura.io/v3"],
+      webSocket: ["wss://arbitrum-sepolia.infura.io/ws/v3"],
+    },
+    default: {
+      http: ["https://sepolia-rollup.arbitrum.io/rpc"],
+    },
+    public: {
+      http: ["https://sepolia-rollup.arbitrum.io/rpc"],
+    },
+  },
+  blockExplorers: {
+    etherscan: { name: "Arbiscan", url: "https://sepolia.arbiscan.io/" },
+    default: { name: "Arbiscan", url: "https://sepolia.arbiscan.io/" },
+  },
+  testnet: true,
+};
+
 // We always want to have mainnet enabled (ENS resolution, ETH price, etc). But only once.
-export const enabledChains = [
-  chains.foundry,
-  chains.goerli,
-  chains.sepolia,
-  chains.polygonMumbai,
-  chains.polygonZkEvmTestnet,
-  chains.arbitrumGoerli,
-  chains.optimismGoerli,
-  chains.baseGoerli,
-  chains.scrollSepolia,
-];
+export const enabledChains = [arbitrumSepolia];
 
 /**
  * Chains for the app

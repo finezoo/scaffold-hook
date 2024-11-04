@@ -7,6 +7,6 @@ fs_permissions = [{ access = "read", path = "./contracts/out"}, { access = "writ
 cancun = true
 
 # For Linux/WSL2 systems, please change to `contracts/lib/v4-core/bin/solc-static-linux`
-solc = "contracts/lib/v4-core/bin/solc-mac"
+solc = "contracts/lib/v4-core/bin/solc-static-linux"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

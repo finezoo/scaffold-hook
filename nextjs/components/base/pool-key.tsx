@@ -30,7 +30,7 @@ export function PoolKeyId({
     hooks: hookAddress,
   });
   return (
-    <Accordion variant="flat">
+    <Accordion variant="light">
       <AccordionItem
         key="1"
         aria-label="PoolKey Identifier"

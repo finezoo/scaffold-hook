@@ -2,29 +2,29 @@ import { counterABI, hookMinerABI, poolManagerABI, poolModifyLiquidityTestABI, p
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 export const deployedContracts: GenericContractsDeclaration = {
-  31337: [
+  421614: [
     {
-      name: "Anvil",
-      chainId: "31337",
+      name: "Arbitrum Sepolia",
+      chainId: "421614",
       contracts: {
         PoolManager: {
-          address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+          address: "0xb673AE03413860776497B8C9b3E3F8d4D8745cB3",
           abi: poolManagerABI,
         },
         Counter: {
-          address: "0x3Ce72a2059524eC26219E6a7f9dBe387370ac1D8",
+          address: "0x3309c7120aa95225a7f04d7487ca2ddf12337b83",
           abi: counterABI,
         },
         HookMiner: {
-          address: "0x32cd5ecdA7f2B8633C00A0434DE28Db111E60636",
+          address: "0xa96ce04edc1f397740e9a79d48dbf29d6fcd4c37",
           abi: hookMinerABI,
         },
         PoolModifyLiquityTest: {
-          address: "0x3079c0319f8734239eb06765666468f7b76eb505",
+          address: "0x30654C69B212AD057E817EcA26da6c5edA32E2E7",
           abi: poolModifyLiquidityTestABI,
         },
         PoolSwapTest: {
-          address: "0xaf7ccf0ff7ef054a1db43330f5431958ab4a9441",
+          address: "0x24C731645ee1e35C3219153d370EBd79784D1E91",
           abi: poolSwapTestABI,
         },
       },
