@@ -3110,7 +3110,8 @@ export const poolDonateTestConfig = { address: poolDonateTestAddress, abi: poolD
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export const poolInitializeTestABI = [
   {
@@ -3341,14 +3342,17 @@ export const poolInitializeTestABI = [
 ] as const
 
 /**
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export const poolInitializeTestAddress = {
   31337: '0xFEB29bB43e36c0F8488F78bba2E8E94F0D829Fa1',
+  421614: '0xb673AE03413860776497B8C9b3E3F8d4D8745cB3',
 } as const
 
 /**
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export const poolInitializeTestConfig = { address: poolInitializeTestAddress, abi: poolInitializeTestABI } as const
 
@@ -12110,7 +12114,8 @@ export function usePoolDonateTestLogsEvent(
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link poolInitializeTestABI}__.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestRead<
   TFunctionName extends string,
@@ -12120,9 +12125,12 @@ export function usePoolInitializeTestRead<
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractRead({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     ...config,
   } as UseContractReadConfig<typeof poolInitializeTestABI, TFunctionName, TSelectData>)
 }
@@ -12130,7 +12138,8 @@ export function usePoolInitializeTestRead<
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"IS_TEST"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestIsTest<
   TFunctionName extends 'IS_TEST',
@@ -12141,9 +12150,12 @@ export function usePoolInitializeTestIsTest<
     'abi' | 'address' | 'functionName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractRead({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'IS_TEST',
     ...config,
   } as UseContractReadConfig<typeof poolInitializeTestABI, TFunctionName, TSelectData>)
@@ -12152,7 +12164,8 @@ export function usePoolInitializeTestIsTest<
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"manager"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestManager<
   TFunctionName extends 'manager',
@@ -12163,9 +12176,12 @@ export function usePoolInitializeTestManager<
     'abi' | 'address' | 'functionName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractRead({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'manager',
     ...config,
   } as UseContractReadConfig<typeof poolInitializeTestABI, TFunctionName, TSelectData>)
@@ -12174,7 +12190,8 @@ export function usePoolInitializeTestManager<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestWrite<
   TFunctionName extends string,
@@ -12193,9 +12210,12 @@ export function usePoolInitializeTestWrite<
         chainId?: TChainId
       } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractWrite<typeof poolInitializeTestABI, TFunctionName, TMode>({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     ...config,
   } as any)
 }
@@ -12203,7 +12223,8 @@ export function usePoolInitializeTestWrite<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"failed"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestFailed<
   TMode extends WriteContractMode = undefined,
@@ -12222,9 +12243,12 @@ export function usePoolInitializeTestFailed<
         functionName?: 'failed'
       } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractWrite<typeof poolInitializeTestABI, 'failed', TMode>({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'failed',
     ...config,
   } as any)
@@ -12233,7 +12257,8 @@ export function usePoolInitializeTestFailed<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"initialize"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestInitialize<
   TMode extends WriteContractMode = undefined,
@@ -12252,9 +12277,12 @@ export function usePoolInitializeTestInitialize<
         functionName?: 'initialize'
       } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractWrite<typeof poolInitializeTestABI, 'initialize', TMode>({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'initialize',
     ...config,
   } as any)
@@ -12263,7 +12291,8 @@ export function usePoolInitializeTestInitialize<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"lockAcquired"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLockAcquired<
   TMode extends WriteContractMode = undefined,
@@ -12282,9 +12311,12 @@ export function usePoolInitializeTestLockAcquired<
         functionName?: 'lockAcquired'
       } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractWrite<typeof poolInitializeTestABI, 'lockAcquired', TMode>({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'lockAcquired',
     ...config,
   } as any)
@@ -12293,16 +12325,20 @@ export function usePoolInitializeTestLockAcquired<
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePreparePoolInitializeTestWrite<TFunctionName extends string>(
   config: Omit<UsePrepareContractWriteConfig<typeof poolInitializeTestABI, TFunctionName>, 'abi' | 'address'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return usePrepareContractWrite({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     ...config,
   } as UsePrepareContractWriteConfig<typeof poolInitializeTestABI, TFunctionName>)
 }
@@ -12310,7 +12346,8 @@ export function usePreparePoolInitializeTestWrite<TFunctionName extends string>(
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"failed"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePreparePoolInitializeTestFailed(
   config: Omit<
@@ -12318,9 +12355,12 @@ export function usePreparePoolInitializeTestFailed(
     'abi' | 'address' | 'functionName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return usePrepareContractWrite({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'failed',
     ...config,
   } as UsePrepareContractWriteConfig<typeof poolInitializeTestABI, 'failed'>)
@@ -12329,7 +12369,8 @@ export function usePreparePoolInitializeTestFailed(
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"initialize"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePreparePoolInitializeTestInitialize(
   config: Omit<
@@ -12337,9 +12378,12 @@ export function usePreparePoolInitializeTestInitialize(
     'abi' | 'address' | 'functionName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return usePrepareContractWrite({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'initialize',
     ...config,
   } as UsePrepareContractWriteConfig<typeof poolInitializeTestABI, 'initialize'>)
@@ -12348,7 +12392,8 @@ export function usePreparePoolInitializeTestInitialize(
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link poolInitializeTestABI}__ and `functionName` set to `"lockAcquired"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePreparePoolInitializeTestLockAcquired(
   config: Omit<
@@ -12356,9 +12401,12 @@ export function usePreparePoolInitializeTestLockAcquired(
     'abi' | 'address' | 'functionName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return usePrepareContractWrite({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     functionName: 'lockAcquired',
     ...config,
   } as UsePrepareContractWriteConfig<typeof poolInitializeTestABI, 'lockAcquired'>)
@@ -12367,16 +12415,20 @@ export function usePreparePoolInitializeTestLockAcquired(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestEvent<TEventName extends string>(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, TEventName>, 'abi' | 'address'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, TEventName>)
 }
@@ -12384,16 +12436,20 @@ export function usePoolInitializeTestEvent<TEventName extends string>(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log'>)
@@ -12402,16 +12458,20 @@ export function usePoolInitializeTestLogEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_address"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogAddressEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_address'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_address',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_address'>)
@@ -12420,16 +12480,20 @@ export function usePoolInitializeTestLogAddressEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_array"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogArrayEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_array'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_array',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_array'>)
@@ -12438,16 +12502,20 @@ export function usePoolInitializeTestLogArrayEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_bytes"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogBytesEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_bytes'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_bytes',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_bytes'>)
@@ -12456,16 +12524,20 @@ export function usePoolInitializeTestLogBytesEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_bytes32"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogBytes32Event(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_bytes32'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_bytes32',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_bytes32'>)
@@ -12474,16 +12546,20 @@ export function usePoolInitializeTestLogBytes32Event(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_int"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogIntEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_int'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_int',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_int'>)
@@ -12492,7 +12568,8 @@ export function usePoolInitializeTestLogIntEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_address"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedAddressEvent(
   config: Omit<
@@ -12500,9 +12577,12 @@ export function usePoolInitializeTestLogNamedAddressEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_address',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_address'>)
@@ -12511,7 +12591,8 @@ export function usePoolInitializeTestLogNamedAddressEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_array"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedArrayEvent(
   config: Omit<
@@ -12519,9 +12600,12 @@ export function usePoolInitializeTestLogNamedArrayEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_array',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_array'>)
@@ -12530,7 +12614,8 @@ export function usePoolInitializeTestLogNamedArrayEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_bytes"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedBytesEvent(
   config: Omit<
@@ -12538,9 +12623,12 @@ export function usePoolInitializeTestLogNamedBytesEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_bytes',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_bytes'>)
@@ -12549,7 +12637,8 @@ export function usePoolInitializeTestLogNamedBytesEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_bytes32"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedBytes32Event(
   config: Omit<
@@ -12557,9 +12646,12 @@ export function usePoolInitializeTestLogNamedBytes32Event(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_bytes32',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_bytes32'>)
@@ -12568,7 +12660,8 @@ export function usePoolInitializeTestLogNamedBytes32Event(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_decimal_int"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedDecimalIntEvent(
   config: Omit<
@@ -12576,9 +12669,12 @@ export function usePoolInitializeTestLogNamedDecimalIntEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_decimal_int',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_decimal_int'>)
@@ -12587,7 +12683,8 @@ export function usePoolInitializeTestLogNamedDecimalIntEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_decimal_uint"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedDecimalUintEvent(
   config: Omit<
@@ -12595,9 +12692,12 @@ export function usePoolInitializeTestLogNamedDecimalUintEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_decimal_uint',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_decimal_uint'>)
@@ -12606,7 +12706,8 @@ export function usePoolInitializeTestLogNamedDecimalUintEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_int"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedIntEvent(
   config: Omit<
@@ -12614,9 +12715,12 @@ export function usePoolInitializeTestLogNamedIntEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_int',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_int'>)
@@ -12625,7 +12729,8 @@ export function usePoolInitializeTestLogNamedIntEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_string"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedStringEvent(
   config: Omit<
@@ -12633,9 +12738,12 @@ export function usePoolInitializeTestLogNamedStringEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_string',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_string'>)
@@ -12644,7 +12752,8 @@ export function usePoolInitializeTestLogNamedStringEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_named_uint"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogNamedUintEvent(
   config: Omit<
@@ -12652,9 +12761,12 @@ export function usePoolInitializeTestLogNamedUintEvent(
     'abi' | 'address' | 'eventName'
   > & { chainId?: keyof typeof poolInitializeTestAddress } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_named_uint',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_named_uint'>)
@@ -12663,16 +12775,20 @@ export function usePoolInitializeTestLogNamedUintEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_string"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogStringEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_string'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_string',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_string'>)
@@ -12681,16 +12797,20 @@ export function usePoolInitializeTestLogStringEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"log_uint"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogUintEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'log_uint'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'log_uint',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'log_uint'>)
@@ -12699,16 +12819,20 @@ export function usePoolInitializeTestLogUintEvent(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link poolInitializeTestABI}__ and `eventName` set to `"logs"`.
  *
- *
+ * -
+ * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  */
 export function usePoolInitializeTestLogsEvent(
   config: Omit<UseContractEventConfig<typeof poolInitializeTestABI, 'logs'>, 'abi' | 'address' | 'eventName'> & {
     chainId?: keyof typeof poolInitializeTestAddress
   } = {} as any,
 ) {
+  const { chain } = useNetwork()
+  const defaultChainId = useChainId()
+  const chainId = config.chainId ?? chain?.id ?? defaultChainId
   return useContractEvent({
     abi: poolInitializeTestABI,
-    address: poolInitializeTestAddress[31337],
+    address: poolInitializeTestAddress[chainId as keyof typeof poolInitializeTestAddress],
     eventName: 'logs',
     ...config,
   } as UseContractEventConfig<typeof poolInitializeTestABI, 'logs'>)

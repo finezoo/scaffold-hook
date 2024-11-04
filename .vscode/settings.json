@@ -12,5 +12,6 @@
     "@uniswap/v4-core/=contracts/lib/v4-core/"
   ],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "solidity.evmVersion": "cancun"
 }

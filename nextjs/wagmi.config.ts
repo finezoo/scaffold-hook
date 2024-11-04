@@ -44,6 +44,7 @@ export default defineConfig({
         },
         PoolInitializeTest: {
           31337: "0xFEB29bB43e36c0F8488F78bba2E8E94F0D829Fa1",
+          421614: "0xb673AE03413860776497B8C9b3E3F8d4D8745cB3",
         },
         PoolSwapTest: {
           31337: "0xaf7ccf0ff7ef054a1db43330f5431958ab4a9441",

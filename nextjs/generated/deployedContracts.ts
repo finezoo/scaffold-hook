@@ -19,7 +19,7 @@ export const deployedContracts: GenericContractsDeclaration = {
           address: "0xa96ce04edc1f397740e9a79d48dbf29d6fcd4c37",
           abi: hookMinerABI,
         },
-        PoolModifyLiquityTest: {
+        PoolModifyLiquidityTest: {
           address: "0x30654C69B212AD057E817EcA26da6c5edA32E2E7",
           abi: poolModifyLiquidityTestABI,
         },

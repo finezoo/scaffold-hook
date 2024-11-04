@@ -16,6 +16,7 @@
     "deploy:polygon-mumbai": "source .env && POOL_MANAGER_ADDR=0x84642fEf6ef575e3B2f4d7C72022F24AB9C9Ffa6 forge script contracts/script/DeployHook.s.sol --broadcast --rpc-url https://rpc.ankr.com/polygon_mumbai --private-key $FORGE_PRIVATE_KEY",
     "deploy:polygon-zkevm-testnet": "source .env && POOL_MANAGER_ADDR=0xb673AE03413860776497B8C9b3E3F8d4D8745cB3 forge script contracts/script/DeployHook.s.sol --broadcast --rpc-url https://rpc.public.zkevm-test.net --private-key $FORGE_PRIVATE_KEY",
     "deploy:conduit": "source .env && POOL_MANAGER_ADDR=0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 forge script contracts/script/DeployHook.s.sol --broadcast --rpc-url https://l2-uniswap-v4-hook-sandbox-6tl5qq8i4d.t.conduit.xyz/ --private-key $FORGE_PRIVATE_KEY",
-    "genesis": "source .env && forge script contracts/script/GenerateAnvilGenesis.s.sol --ffi --broadcast --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+    "genesis": "source .env && forge script contracts/script/GenerateAnvilGenesis.s.sol --ffi --broadcast --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+    "verify:arbitrum-sepolia": "source .env && POOL_MANAGER_ADDR=0xb673AE03413860776497B8C9b3E3F8d4D8745cB3 forge verify-contract 0x3309c7120aa95225a7f04d7487ca2ddf12337b83 contracts/src/Counter.sol:Counter --verifier-url https://api-sepolia.arbiscan.io/api --show-standard-json-input --chain-id 421614 --constructor-args 0x000000000000000000000000b673ae03413860776497b8c9b3e3f8d4d8745cb3"
   }
 }

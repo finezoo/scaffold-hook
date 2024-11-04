@@ -29,14 +29,6 @@ const arbitrumSepolia = {
     decimals: 18,
   },
   rpcUrls: {
-    alchemy: {
-      http: ["https://arb-sepolia.g.alchemy.com/v2"],
-      webSocket: ["wss://arb-sepolia.g.alchemy.com/v2"],
-    },
-    infura: {
-      http: ["https://arbitrum-sepolia.infura.io/v3"],
-      webSocket: ["wss://arbitrum-sepolia.infura.io/ws/v3"],
-    },
     default: {
       http: ["https://sepolia-rollup.arbitrum.io/rpc"],
     },

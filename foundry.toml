@@ -4,7 +4,7 @@ test = 'contracts/test'
 out = 'contracts/out'
 libs = ['contracts/lib']
 fs_permissions = [{ access = "read", path = "./contracts/out"}, { access = "write", path = "genesis.json"}]
-cancun = true
+evm_version = 'cancun'
 
 # For Linux/WSL2 systems, please change to `contracts/lib/v4-core/bin/solc-static-linux`
 solc = "contracts/lib/v4-core/bin/solc-static-linux"
