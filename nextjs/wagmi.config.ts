@@ -24,7 +24,7 @@ export default defineConfig({
           421613: "0x0000000000000000000000000000000000000000", // arbitrum goerli
           421614: "0x3309c7120aa95225a7f04d7487ca2ddf12337b83", // arbitrum sepolia
           534351: "0x0000000000000000000000000000000000000000", // scroll  sepolia
-          11155111: "0x0000000000000000000000000000000000000000", // sepolia
+          11155111: "0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0", // sepolia
         },
 
         // --------------------------------------------------
@@ -40,7 +40,7 @@ export default defineConfig({
           421613: "0xC94a4C0a89937E278a0d427bb393134E68d5ec09",
           421614: "0xb673AE03413860776497B8C9b3E3F8d4D8745cB3",
           534351: "0xeb4708989b42f0cd327A6Bd8f76a931429137fd7",
-          11155111: "0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219",
+          11155111: "0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6",
         },
         PoolInitializeTest: {
           31337: "0xFEB29bB43e36c0F8488F78bba2E8E94F0D829Fa1",
@@ -56,7 +56,7 @@ export default defineConfig({
           421613: "0xa26b026581Fa923CFf3084119bf2d14060945a63",
           421614: "0x24C731645ee1e35C3219153d370EBd79784D1E91",
           534351: "0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395",
-          11155111: "0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49",
+          11155111: "0x841b5a0b3dbc473c8a057e2391014aa4c4751351",
         },
         PoolModifyLiquidityTest: {
           31337: "0x3079c0319f8734239eb06765666468f7b76eb505",
@@ -68,7 +68,7 @@ export default defineConfig({
           421613: "0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b",
           421614: "0x30654C69B212AD057E817EcA26da6c5edA32E2E7",
           534351: "0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49",
-          11155111: "0xeb4708989b42f0cd327A6Bd8f76a931429137fd7",
+          11155111: "0x39bf2eff94201cfaa471932655404f63315147a4",
         },
         PoolDonateTest: {
           31337: "0x4fa6c7a3a9b84f2a8340d4d33190f84e307b085c",

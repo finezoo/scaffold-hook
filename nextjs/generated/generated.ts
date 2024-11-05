@@ -388,7 +388,7 @@ export const constantsABI = [
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export const counterABI = [
   {
@@ -762,7 +762,7 @@ export const counterABI = [
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export const counterAddress = {
   5: '0x0000000000000000000000000000000000000000',
@@ -774,7 +774,7 @@ export const counterAddress = {
   421613: '0x0000000000000000000000000000000000000000',
   421614: '0x3309C7120aA95225a7f04d7487ca2DDF12337b83',
   534351: '0x0000000000000000000000000000000000000000',
-  11155111: '0x0000000000000000000000000000000000000000',
+  11155111: '0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0',
 } as const
 
 /**
@@ -787,7 +787,7 @@ export const counterAddress = {
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export const counterConfig = { address: counterAddress, abi: counterABI } as const
 
@@ -3370,7 +3370,7 @@ export const poolInitializeTestConfig = { address: poolInitializeTestAddress, ab
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export const poolManagerABI = [
   {
@@ -4100,7 +4100,7 @@ export const poolManagerABI = [
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export const poolManagerAddress = {
   5: '0x3A9D48AB9751398BbFa63ad67599Bb04e4BdF98b',
@@ -4112,7 +4112,7 @@ export const poolManagerAddress = {
   421613: '0xC94a4C0a89937E278a0d427bb393134E68d5ec09',
   421614: '0xb673AE03413860776497B8C9b3E3F8d4D8745cB3',
   534351: '0xeb4708989b42f0cd327A6Bd8f76a931429137fd7',
-  11155111: '0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219',
+  11155111: '0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6',
 } as const
 
 /**
@@ -4125,7 +4125,7 @@ export const poolManagerAddress = {
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export const poolManagerConfig = { address: poolManagerAddress, abi: poolManagerABI } as const
 
@@ -4143,7 +4143,7 @@ export const poolManagerConfig = { address: poolManagerAddress, abi: poolManager
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export const poolModifyLiquidityTestABI = [
   {
@@ -4394,7 +4394,7 @@ export const poolModifyLiquidityTestABI = [
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export const poolModifyLiquidityTestAddress = {
   5: '0x83feDBeD11B3667f40263a88e8435fca51A03F8C',
@@ -4406,7 +4406,7 @@ export const poolModifyLiquidityTestAddress = {
   421613: '0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b',
   421614: '0x30654C69B212AD057E817EcA26da6c5edA32E2E7',
   534351: '0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49',
-  11155111: '0xeb4708989b42f0cd327A6Bd8f76a931429137fd7',
+  11155111: '0x39BF2eFF94201cfAA471932655404F63315147a4',
 } as const
 
 /**
@@ -4419,7 +4419,7 @@ export const poolModifyLiquidityTestAddress = {
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export const poolModifyLiquidityTestConfig = {
   address: poolModifyLiquidityTestAddress,
@@ -4440,7 +4440,7 @@ export const poolModifyLiquidityTestConfig = {
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export const poolSwapTestABI = [
   {
@@ -4702,7 +4702,7 @@ export const poolSwapTestABI = [
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export const poolSwapTestAddress = {
   5: '0xF8AADC65Bf1Ec1645ef931317fD48ffa734a185c',
@@ -4714,7 +4714,7 @@ export const poolSwapTestAddress = {
   421613: '0xa26b026581Fa923CFf3084119bf2d14060945a63',
   421614: '0x24C731645ee1e35C3219153d370EBd79784D1E91',
   534351: '0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395',
-  11155111: '0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49',
+  11155111: '0x841B5A0b3DBc473c8A057E2391014aa4C4751351',
 } as const
 
 /**
@@ -4727,7 +4727,7 @@ export const poolSwapTestAddress = {
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export const poolSwapTestConfig = { address: poolSwapTestAddress, abi: poolSwapTestABI } as const
 
@@ -6145,7 +6145,7 @@ export function useConstantsSqrtRatio_4_1<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterRead<
   TFunctionName extends string,
@@ -6177,7 +6177,7 @@ export function useCounterRead<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterAddLiquidityCount<
   TFunctionName extends 'afterAddLiquidityCount',
@@ -6211,7 +6211,7 @@ export function useCounterAfterAddLiquidityCount<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterSwapCount<
   TFunctionName extends 'afterSwapCount',
@@ -6245,7 +6245,7 @@ export function useCounterAfterSwapCount<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeAddLiquidityCount<
   TFunctionName extends 'beforeAddLiquidityCount',
@@ -6279,7 +6279,7 @@ export function useCounterBeforeAddLiquidityCount<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeSwapCount<
   TFunctionName extends 'beforeSwapCount',
@@ -6313,7 +6313,7 @@ export function useCounterBeforeSwapCount<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterGetHookPermissions<
   TFunctionName extends 'getHookPermissions',
@@ -6347,7 +6347,7 @@ export function useCounterGetHookPermissions<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterPoolManager<
   TFunctionName extends 'poolManager',
@@ -6381,7 +6381,7 @@ export function useCounterPoolManager<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterWrite<
   TFunctionName extends string,
@@ -6422,7 +6422,7 @@ export function useCounterWrite<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterAddLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -6464,7 +6464,7 @@ export function useCounterAfterAddLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterDonate<
   TMode extends WriteContractMode = undefined,
@@ -6506,7 +6506,7 @@ export function useCounterAfterDonate<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterInitialize<
   TMode extends WriteContractMode = undefined,
@@ -6548,7 +6548,7 @@ export function useCounterAfterInitialize<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterRemoveLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -6590,7 +6590,7 @@ export function useCounterAfterRemoveLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterAfterSwap<
   TMode extends WriteContractMode = undefined,
@@ -6632,7 +6632,7 @@ export function useCounterAfterSwap<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeAddLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -6674,7 +6674,7 @@ export function useCounterBeforeAddLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeDonate<
   TMode extends WriteContractMode = undefined,
@@ -6716,7 +6716,7 @@ export function useCounterBeforeDonate<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeInitialize<
   TMode extends WriteContractMode = undefined,
@@ -6758,7 +6758,7 @@ export function useCounterBeforeInitialize<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeRemoveLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -6800,7 +6800,7 @@ export function useCounterBeforeRemoveLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function useCounterBeforeSwap<
   TMode extends WriteContractMode = undefined,
@@ -6842,7 +6842,7 @@ export function useCounterBeforeSwap<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterWrite<TFunctionName extends string>(
   config: Omit<UsePrepareContractWriteConfig<typeof counterABI, TFunctionName>, 'abi' | 'address'> & {
@@ -6871,7 +6871,7 @@ export function usePrepareCounterWrite<TFunctionName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterAfterAddLiquidity(
   config: Omit<
@@ -6902,7 +6902,7 @@ export function usePrepareCounterAfterAddLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterAfterDonate(
   config: Omit<UsePrepareContractWriteConfig<typeof counterABI, 'afterDonate'>, 'abi' | 'address' | 'functionName'> & {
@@ -6932,7 +6932,7 @@ export function usePrepareCounterAfterDonate(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterAfterInitialize(
   config: Omit<
@@ -6963,7 +6963,7 @@ export function usePrepareCounterAfterInitialize(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterAfterRemoveLiquidity(
   config: Omit<
@@ -6994,7 +6994,7 @@ export function usePrepareCounterAfterRemoveLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterAfterSwap(
   config: Omit<UsePrepareContractWriteConfig<typeof counterABI, 'afterSwap'>, 'abi' | 'address' | 'functionName'> & {
@@ -7024,7 +7024,7 @@ export function usePrepareCounterAfterSwap(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterBeforeAddLiquidity(
   config: Omit<
@@ -7055,7 +7055,7 @@ export function usePrepareCounterBeforeAddLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterBeforeDonate(
   config: Omit<UsePrepareContractWriteConfig<typeof counterABI, 'beforeDonate'>, 'abi' | 'address' | 'functionName'> & {
@@ -7085,7 +7085,7 @@ export function usePrepareCounterBeforeDonate(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterBeforeInitialize(
   config: Omit<
@@ -7116,7 +7116,7 @@ export function usePrepareCounterBeforeInitialize(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterBeforeRemoveLiquidity(
   config: Omit<
@@ -7147,7 +7147,7 @@ export function usePrepareCounterBeforeRemoveLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0x0000000000000000000000000000000000000000)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x3309c7120aa95225a7f04d7487ca2ddf12337b83)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x0000000000000000000000000000000000000000)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x0000000000000000000000000000000000000000)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x4E4a9A0C097427A4A72B1386A031fd411adf8aC0)
  */
 export function usePrepareCounterBeforeSwap(
   config: Omit<UsePrepareContractWriteConfig<typeof counterABI, 'beforeSwap'>, 'abi' | 'address' | 'functionName'> & {
@@ -12850,7 +12850,7 @@ export function usePoolInitializeTestLogsEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerRead<
   TFunctionName extends string,
@@ -12882,7 +12882,7 @@ export function usePoolManagerRead<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerMaxSwapFee<
   TFunctionName extends 'MAX_SWAP_FEE',
@@ -12916,7 +12916,7 @@ export function usePoolManagerMaxSwapFee<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerMaxTickSpacing<
   TFunctionName extends 'MAX_TICK_SPACING',
@@ -12950,7 +12950,7 @@ export function usePoolManagerMaxTickSpacing<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerMinProtocolFeeDenominator<
   TFunctionName extends 'MIN_PROTOCOL_FEE_DENOMINATOR',
@@ -12984,7 +12984,7 @@ export function usePoolManagerMinProtocolFeeDenominator<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerMinTickSpacing<
   TFunctionName extends 'MIN_TICK_SPACING',
@@ -13018,7 +13018,7 @@ export function usePoolManagerMinTickSpacing<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerAllowance<
   TFunctionName extends 'allowance',
@@ -13052,7 +13052,7 @@ export function usePoolManagerAllowance<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerBalanceOf<
   TFunctionName extends 'balanceOf',
@@ -13086,7 +13086,7 @@ export function usePoolManagerBalanceOf<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerCurrencyDelta<
   TFunctionName extends 'currencyDelta',
@@ -13120,7 +13120,7 @@ export function usePoolManagerCurrencyDelta<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerExtsload<
   TFunctionName extends 'extsload',
@@ -13154,7 +13154,7 @@ export function usePoolManagerExtsload<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetCurrentHook<
   TFunctionName extends 'getCurrentHook',
@@ -13188,7 +13188,7 @@ export function usePoolManagerGetCurrentHook<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetLiquidity<
   TFunctionName extends 'getLiquidity',
@@ -13222,7 +13222,7 @@ export function usePoolManagerGetLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetLock<
   TFunctionName extends 'getLock',
@@ -13256,7 +13256,7 @@ export function usePoolManagerGetLock<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetLockLength<
   TFunctionName extends 'getLockLength',
@@ -13290,7 +13290,7 @@ export function usePoolManagerGetLockLength<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetLockNonzeroDeltaCount<
   TFunctionName extends 'getLockNonzeroDeltaCount',
@@ -13324,7 +13324,7 @@ export function usePoolManagerGetLockNonzeroDeltaCount<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetPoolBitmapInfo<
   TFunctionName extends 'getPoolBitmapInfo',
@@ -13358,7 +13358,7 @@ export function usePoolManagerGetPoolBitmapInfo<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetPoolTickInfo<
   TFunctionName extends 'getPoolTickInfo',
@@ -13392,7 +13392,7 @@ export function usePoolManagerGetPoolTickInfo<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetPosition<
   TFunctionName extends 'getPosition',
@@ -13426,7 +13426,7 @@ export function usePoolManagerGetPosition<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerGetSlot0<
   TFunctionName extends 'getSlot0',
@@ -13460,7 +13460,7 @@ export function usePoolManagerGetSlot0<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerIsOperator<
   TFunctionName extends 'isOperator',
@@ -13494,7 +13494,7 @@ export function usePoolManagerIsOperator<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerOwner<
   TFunctionName extends 'owner',
@@ -13528,7 +13528,7 @@ export function usePoolManagerOwner<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerPools<
   TFunctionName extends 'pools',
@@ -13562,7 +13562,7 @@ export function usePoolManagerPools<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerProtocolFeeController<
   TFunctionName extends 'protocolFeeController',
@@ -13596,7 +13596,7 @@ export function usePoolManagerProtocolFeeController<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerProtocolFeesAccrued<
   TFunctionName extends 'protocolFeesAccrued',
@@ -13630,7 +13630,7 @@ export function usePoolManagerProtocolFeesAccrued<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerReservesOf<
   TFunctionName extends 'reservesOf',
@@ -13664,7 +13664,7 @@ export function usePoolManagerReservesOf<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSupportsInterface<
   TFunctionName extends 'supportsInterface',
@@ -13698,7 +13698,7 @@ export function usePoolManagerSupportsInterface<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerWrite<
   TFunctionName extends string,
@@ -13739,7 +13739,7 @@ export function usePoolManagerWrite<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerApprove<
   TMode extends WriteContractMode = undefined,
@@ -13781,7 +13781,7 @@ export function usePoolManagerApprove<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerBurn<
   TMode extends WriteContractMode = undefined,
@@ -13823,7 +13823,7 @@ export function usePoolManagerBurn<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerCollectProtocolFees<
   TMode extends WriteContractMode = undefined,
@@ -13865,7 +13865,7 @@ export function usePoolManagerCollectProtocolFees<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerDonate<
   TMode extends WriteContractMode = undefined,
@@ -13907,7 +13907,7 @@ export function usePoolManagerDonate<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerInitialize<
   TMode extends WriteContractMode = undefined,
@@ -13949,7 +13949,7 @@ export function usePoolManagerInitialize<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerLock<
   TMode extends WriteContractMode = undefined,
@@ -13991,7 +13991,7 @@ export function usePoolManagerLock<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerMint<
   TMode extends WriteContractMode = undefined,
@@ -14033,7 +14033,7 @@ export function usePoolManagerMint<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerModifyLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -14075,7 +14075,7 @@ export function usePoolManagerModifyLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSetOperator<
   TMode extends WriteContractMode = undefined,
@@ -14117,7 +14117,7 @@ export function usePoolManagerSetOperator<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSetOwner<
   TMode extends WriteContractMode = undefined,
@@ -14159,7 +14159,7 @@ export function usePoolManagerSetOwner<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSetProtocolFee<
   TMode extends WriteContractMode = undefined,
@@ -14201,7 +14201,7 @@ export function usePoolManagerSetProtocolFee<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSetProtocolFeeController<
   TMode extends WriteContractMode = undefined,
@@ -14243,7 +14243,7 @@ export function usePoolManagerSetProtocolFeeController<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSettle<
   TMode extends WriteContractMode = undefined,
@@ -14285,7 +14285,7 @@ export function usePoolManagerSettle<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSwap<
   TMode extends WriteContractMode = undefined,
@@ -14327,7 +14327,7 @@ export function usePoolManagerSwap<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerTake<
   TMode extends WriteContractMode = undefined,
@@ -14369,7 +14369,7 @@ export function usePoolManagerTake<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerTransfer<
   TMode extends WriteContractMode = undefined,
@@ -14411,7 +14411,7 @@ export function usePoolManagerTransfer<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerTransferFrom<
   TMode extends WriteContractMode = undefined,
@@ -14453,7 +14453,7 @@ export function usePoolManagerTransferFrom<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerUpdateDynamicSwapFee<
   TMode extends WriteContractMode = undefined,
@@ -14495,7 +14495,7 @@ export function usePoolManagerUpdateDynamicSwapFee<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerWrite<TFunctionName extends string>(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, TFunctionName>, 'abi' | 'address'> & {
@@ -14524,7 +14524,7 @@ export function usePreparePoolManagerWrite<TFunctionName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerApprove(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'approve'>, 'abi' | 'address' | 'functionName'> & {
@@ -14554,7 +14554,7 @@ export function usePreparePoolManagerApprove(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerBurn(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'burn'>, 'abi' | 'address' | 'functionName'> & {
@@ -14584,7 +14584,7 @@ export function usePreparePoolManagerBurn(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerCollectProtocolFees(
   config: Omit<
@@ -14615,7 +14615,7 @@ export function usePreparePoolManagerCollectProtocolFees(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerDonate(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'donate'>, 'abi' | 'address' | 'functionName'> & {
@@ -14645,7 +14645,7 @@ export function usePreparePoolManagerDonate(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerInitialize(
   config: Omit<
@@ -14676,7 +14676,7 @@ export function usePreparePoolManagerInitialize(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerLock(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'lock'>, 'abi' | 'address' | 'functionName'> & {
@@ -14706,7 +14706,7 @@ export function usePreparePoolManagerLock(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerMint(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'mint'>, 'abi' | 'address' | 'functionName'> & {
@@ -14736,7 +14736,7 @@ export function usePreparePoolManagerMint(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerModifyLiquidity(
   config: Omit<
@@ -14767,7 +14767,7 @@ export function usePreparePoolManagerModifyLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSetOperator(
   config: Omit<
@@ -14798,7 +14798,7 @@ export function usePreparePoolManagerSetOperator(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSetOwner(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'setOwner'>, 'abi' | 'address' | 'functionName'> & {
@@ -14828,7 +14828,7 @@ export function usePreparePoolManagerSetOwner(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSetProtocolFee(
   config: Omit<
@@ -14859,7 +14859,7 @@ export function usePreparePoolManagerSetProtocolFee(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSetProtocolFeeController(
   config: Omit<
@@ -14890,7 +14890,7 @@ export function usePreparePoolManagerSetProtocolFeeController(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSettle(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'settle'>, 'abi' | 'address' | 'functionName'> & {
@@ -14920,7 +14920,7 @@ export function usePreparePoolManagerSettle(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerSwap(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'swap'>, 'abi' | 'address' | 'functionName'> & {
@@ -14950,7 +14950,7 @@ export function usePreparePoolManagerSwap(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerTake(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'take'>, 'abi' | 'address' | 'functionName'> & {
@@ -14980,7 +14980,7 @@ export function usePreparePoolManagerTake(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerTransfer(
   config: Omit<UsePrepareContractWriteConfig<typeof poolManagerABI, 'transfer'>, 'abi' | 'address' | 'functionName'> & {
@@ -15010,7 +15010,7 @@ export function usePreparePoolManagerTransfer(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerTransferFrom(
   config: Omit<
@@ -15041,7 +15041,7 @@ export function usePreparePoolManagerTransferFrom(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePreparePoolManagerUpdateDynamicSwapFee(
   config: Omit<
@@ -15072,7 +15072,7 @@ export function usePreparePoolManagerUpdateDynamicSwapFee(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerEvent<TEventName extends string>(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, TEventName>, 'abi' | 'address'> & {
@@ -15101,7 +15101,7 @@ export function usePoolManagerEvent<TEventName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerApprovalEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'Approval'>, 'abi' | 'address' | 'eventName'> & {
@@ -15131,7 +15131,7 @@ export function usePoolManagerApprovalEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerDynamicSwapFeeUpdatedEvent(
   config: Omit<
@@ -15162,7 +15162,7 @@ export function usePoolManagerDynamicSwapFeeUpdatedEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerInitializeEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'Initialize'>, 'abi' | 'address' | 'eventName'> & {
@@ -15192,7 +15192,7 @@ export function usePoolManagerInitializeEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerModifyLiquidityEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'ModifyLiquidity'>, 'abi' | 'address' | 'eventName'> & {
@@ -15222,7 +15222,7 @@ export function usePoolManagerModifyLiquidityEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerOperatorSetEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'OperatorSet'>, 'abi' | 'address' | 'eventName'> & {
@@ -15252,7 +15252,7 @@ export function usePoolManagerOperatorSetEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerOwnerChangedEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'OwnerChanged'>, 'abi' | 'address' | 'eventName'> & {
@@ -15282,7 +15282,7 @@ export function usePoolManagerOwnerChangedEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerProtocolFeeControllerUpdatedEvent(
   config: Omit<
@@ -15313,7 +15313,7 @@ export function usePoolManagerProtocolFeeControllerUpdatedEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerProtocolFeeUpdatedEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'ProtocolFeeUpdated'>, 'abi' | 'address' | 'eventName'> & {
@@ -15343,7 +15343,7 @@ export function usePoolManagerProtocolFeeUpdatedEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerSwapEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'Swap'>, 'abi' | 'address' | 'eventName'> & {
@@ -15373,7 +15373,7 @@ export function usePoolManagerSwapEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xC94a4C0a89937E278a0d427bb393134E68d5ec09)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0xb673AE03413860776497B8C9b3E3F8d4D8745cB3)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7B2B5A2c377B34079589DDbCeA20427cdb7C8219)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xc021A7Deb4a939fd7E661a0669faB5ac7Ba2D5d6)
  */
 export function usePoolManagerTransferEvent(
   config: Omit<UseContractEventConfig<typeof poolManagerABI, 'Transfer'>, 'abi' | 'address' | 'eventName'> & {
@@ -15403,7 +15403,7 @@ export function usePoolManagerTransferEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestRead<
   TFunctionName extends string,
@@ -15436,7 +15436,7 @@ export function usePoolModifyLiquidityTestRead<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestIsTest<
   TFunctionName extends 'IS_TEST',
@@ -15470,7 +15470,7 @@ export function usePoolModifyLiquidityTestIsTest<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestManager<
   TFunctionName extends 'manager',
@@ -15504,7 +15504,7 @@ export function usePoolModifyLiquidityTestManager<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestWrite<
   TFunctionName extends string,
@@ -15545,7 +15545,7 @@ export function usePoolModifyLiquidityTestWrite<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestFailed<
   TMode extends WriteContractMode = undefined,
@@ -15587,7 +15587,7 @@ export function usePoolModifyLiquidityTestFailed<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLockAcquired<
   TMode extends WriteContractMode = undefined,
@@ -15629,7 +15629,7 @@ export function usePoolModifyLiquidityTestLockAcquired<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestModifyLiquidity<
   TMode extends WriteContractMode = undefined,
@@ -15671,7 +15671,7 @@ export function usePoolModifyLiquidityTestModifyLiquidity<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePreparePoolModifyLiquidityTestWrite<TFunctionName extends string>(
   config: Omit<UsePrepareContractWriteConfig<typeof poolModifyLiquidityTestABI, TFunctionName>, 'abi' | 'address'> & {
@@ -15700,7 +15700,7 @@ export function usePreparePoolModifyLiquidityTestWrite<TFunctionName extends str
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePreparePoolModifyLiquidityTestFailed(
   config: Omit<
@@ -15731,7 +15731,7 @@ export function usePreparePoolModifyLiquidityTestFailed(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePreparePoolModifyLiquidityTestLockAcquired(
   config: Omit<
@@ -15762,7 +15762,7 @@ export function usePreparePoolModifyLiquidityTestLockAcquired(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePreparePoolModifyLiquidityTestModifyLiquidity(
   config: Omit<
@@ -15793,7 +15793,7 @@ export function usePreparePoolModifyLiquidityTestModifyLiquidity(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestEvent<TEventName extends string>(
   config: Omit<UseContractEventConfig<typeof poolModifyLiquidityTestABI, TEventName>, 'abi' | 'address'> & {
@@ -15822,7 +15822,7 @@ export function usePoolModifyLiquidityTestEvent<TEventName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogEvent(
   config: Omit<UseContractEventConfig<typeof poolModifyLiquidityTestABI, 'log'>, 'abi' | 'address' | 'eventName'> & {
@@ -15852,7 +15852,7 @@ export function usePoolModifyLiquidityTestLogEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogAddressEvent(
   config: Omit<
@@ -15883,7 +15883,7 @@ export function usePoolModifyLiquidityTestLogAddressEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogArrayEvent(
   config: Omit<
@@ -15914,7 +15914,7 @@ export function usePoolModifyLiquidityTestLogArrayEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogBytesEvent(
   config: Omit<
@@ -15945,7 +15945,7 @@ export function usePoolModifyLiquidityTestLogBytesEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogBytes32Event(
   config: Omit<
@@ -15976,7 +15976,7 @@ export function usePoolModifyLiquidityTestLogBytes32Event(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogIntEvent(
   config: Omit<
@@ -16007,7 +16007,7 @@ export function usePoolModifyLiquidityTestLogIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedAddressEvent(
   config: Omit<
@@ -16038,7 +16038,7 @@ export function usePoolModifyLiquidityTestLogNamedAddressEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedArrayEvent(
   config: Omit<
@@ -16069,7 +16069,7 @@ export function usePoolModifyLiquidityTestLogNamedArrayEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedBytesEvent(
   config: Omit<
@@ -16100,7 +16100,7 @@ export function usePoolModifyLiquidityTestLogNamedBytesEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedBytes32Event(
   config: Omit<
@@ -16131,7 +16131,7 @@ export function usePoolModifyLiquidityTestLogNamedBytes32Event(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedDecimalIntEvent(
   config: Omit<
@@ -16162,7 +16162,7 @@ export function usePoolModifyLiquidityTestLogNamedDecimalIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedDecimalUintEvent(
   config: Omit<
@@ -16193,7 +16193,7 @@ export function usePoolModifyLiquidityTestLogNamedDecimalUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedIntEvent(
   config: Omit<
@@ -16224,7 +16224,7 @@ export function usePoolModifyLiquidityTestLogNamedIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedStringEvent(
   config: Omit<
@@ -16255,7 +16255,7 @@ export function usePoolModifyLiquidityTestLogNamedStringEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogNamedUintEvent(
   config: Omit<
@@ -16286,7 +16286,7 @@ export function usePoolModifyLiquidityTestLogNamedUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogStringEvent(
   config: Omit<
@@ -16317,7 +16317,7 @@ export function usePoolModifyLiquidityTestLogStringEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogUintEvent(
   config: Omit<
@@ -16348,7 +16348,7 @@ export function usePoolModifyLiquidityTestLogUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xeb1aAdAC0a10Ac2eDFCbE496C3BCBc1dea4F994b)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x30654C69B212AD057E817EcA26da6c5edA32E2E7)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0xeb4708989b42f0cd327A6Bd8f76a931429137fd7)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x39bf2eff94201cfaa471932655404f63315147a4)
  */
 export function usePoolModifyLiquidityTestLogsEvent(
   config: Omit<UseContractEventConfig<typeof poolModifyLiquidityTestABI, 'logs'>, 'abi' | 'address' | 'eventName'> & {
@@ -16378,7 +16378,7 @@ export function usePoolModifyLiquidityTestLogsEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestRead<
   TFunctionName extends string,
@@ -16410,7 +16410,7 @@ export function usePoolSwapTestRead<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestIsTest<
   TFunctionName extends 'IS_TEST',
@@ -16444,7 +16444,7 @@ export function usePoolSwapTestIsTest<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestManager<
   TFunctionName extends 'manager',
@@ -16478,7 +16478,7 @@ export function usePoolSwapTestManager<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestWrite<
   TFunctionName extends string,
@@ -16519,7 +16519,7 @@ export function usePoolSwapTestWrite<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestFailed<
   TMode extends WriteContractMode = undefined,
@@ -16561,7 +16561,7 @@ export function usePoolSwapTestFailed<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLockAcquired<
   TMode extends WriteContractMode = undefined,
@@ -16603,7 +16603,7 @@ export function usePoolSwapTestLockAcquired<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestSwap<
   TMode extends WriteContractMode = undefined,
@@ -16645,7 +16645,7 @@ export function usePoolSwapTestSwap<
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePreparePoolSwapTestWrite<TFunctionName extends string>(
   config: Omit<UsePrepareContractWriteConfig<typeof poolSwapTestABI, TFunctionName>, 'abi' | 'address'> & {
@@ -16674,7 +16674,7 @@ export function usePreparePoolSwapTestWrite<TFunctionName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePreparePoolSwapTestFailed(
   config: Omit<UsePrepareContractWriteConfig<typeof poolSwapTestABI, 'failed'>, 'abi' | 'address' | 'functionName'> & {
@@ -16704,7 +16704,7 @@ export function usePreparePoolSwapTestFailed(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePreparePoolSwapTestLockAcquired(
   config: Omit<
@@ -16735,7 +16735,7 @@ export function usePreparePoolSwapTestLockAcquired(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePreparePoolSwapTestSwap(
   config: Omit<UsePrepareContractWriteConfig<typeof poolSwapTestABI, 'swap'>, 'abi' | 'address' | 'functionName'> & {
@@ -16765,7 +16765,7 @@ export function usePreparePoolSwapTestSwap(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestEvent<TEventName extends string>(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, TEventName>, 'abi' | 'address'> & {
@@ -16794,7 +16794,7 @@ export function usePoolSwapTestEvent<TEventName extends string>(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log'>, 'abi' | 'address' | 'eventName'> & {
@@ -16824,7 +16824,7 @@ export function usePoolSwapTestLogEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogAddressEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_address'>, 'abi' | 'address' | 'eventName'> & {
@@ -16854,7 +16854,7 @@ export function usePoolSwapTestLogAddressEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogArrayEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_array'>, 'abi' | 'address' | 'eventName'> & {
@@ -16884,7 +16884,7 @@ export function usePoolSwapTestLogArrayEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogBytesEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_bytes'>, 'abi' | 'address' | 'eventName'> & {
@@ -16914,7 +16914,7 @@ export function usePoolSwapTestLogBytesEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogBytes32Event(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_bytes32'>, 'abi' | 'address' | 'eventName'> & {
@@ -16944,7 +16944,7 @@ export function usePoolSwapTestLogBytes32Event(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogIntEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_int'>, 'abi' | 'address' | 'eventName'> & {
@@ -16974,7 +16974,7 @@ export function usePoolSwapTestLogIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedAddressEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_address'>, 'abi' | 'address' | 'eventName'> & {
@@ -17004,7 +17004,7 @@ export function usePoolSwapTestLogNamedAddressEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedArrayEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_array'>, 'abi' | 'address' | 'eventName'> & {
@@ -17034,7 +17034,7 @@ export function usePoolSwapTestLogNamedArrayEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedBytesEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_bytes'>, 'abi' | 'address' | 'eventName'> & {
@@ -17064,7 +17064,7 @@ export function usePoolSwapTestLogNamedBytesEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedBytes32Event(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_bytes32'>, 'abi' | 'address' | 'eventName'> & {
@@ -17094,7 +17094,7 @@ export function usePoolSwapTestLogNamedBytes32Event(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedDecimalIntEvent(
   config: Omit<
@@ -17125,7 +17125,7 @@ export function usePoolSwapTestLogNamedDecimalIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedDecimalUintEvent(
   config: Omit<
@@ -17156,7 +17156,7 @@ export function usePoolSwapTestLogNamedDecimalUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedIntEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_int'>, 'abi' | 'address' | 'eventName'> & {
@@ -17186,7 +17186,7 @@ export function usePoolSwapTestLogNamedIntEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedStringEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_string'>, 'abi' | 'address' | 'eventName'> & {
@@ -17216,7 +17216,7 @@ export function usePoolSwapTestLogNamedStringEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogNamedUintEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_named_uint'>, 'abi' | 'address' | 'eventName'> & {
@@ -17246,7 +17246,7 @@ export function usePoolSwapTestLogNamedUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogStringEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_string'>, 'abi' | 'address' | 'eventName'> & {
@@ -17276,7 +17276,7 @@ export function usePoolSwapTestLogStringEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogUintEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'log_uint'>, 'abi' | 'address' | 'eventName'> & {
@@ -17306,7 +17306,7 @@ export function usePoolSwapTestLogUintEvent(
  * - [__View Contract on Arbitrum Goerli Arbiscan__](https://goerli.arbiscan.io/address/0xa26b026581Fa923CFf3084119bf2d14060945a63)
  * - [__View Contract on Arbitrum Sepolia Blockscout__](https://sepolia-explorer.arbitrum.io/address/0x24C731645ee1e35C3219153d370EBd79784D1E91)
  * - [__View Contract on Scroll Sepolia Blockscout__](https://sepolia-blockscout.scroll.io/address/0x3A0c2cF7c40A7B417AE9aB6ccBF60e86d8437395)
- * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x5Bf9FAbb0d56515658b7d5CC4B1F5c4EaED09e49)
+ * - [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x841b5a0b3dbc473c8a057e2391014aa4c4751351)
  */
 export function usePoolSwapTestLogsEvent(
   config: Omit<UseContractEventConfig<typeof poolSwapTestABI, 'logs'>, 'abi' | 'address' | 'eventName'> & {

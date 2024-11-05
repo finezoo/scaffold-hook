@@ -118,6 +118,7 @@ function LiquidityComponent() {
             tickLower: Number(tickLower),
             tickUpper: Number(tickUpper),
             liquidityDelta: liquidityDeltaAdd,
+            salt: "0x0000000000000000000000000000000000000000000000000000000000000000",
           },
           hookData || "0x00",
         ],
@@ -240,8 +241,8 @@ function LiquidityComponent() {
           <p className="text-gray-600 mb-6">Fill out the details below to provision liquidity to a pool. .</p>
 
           <PoolKeyId
-            currency0={token0Addr}
-            currency1={token1Addr}
+            currency0={token0Addr.toLowerCase() < token1Addr.toLowerCase() ? token0Addr : token1Addr}
+            currency1={token0Addr.toLowerCase() < token1Addr.toLowerCase() ? token1Addr : token0Addr}
             swapFee={swapFee}
             setSwapFee={setSwapFee}
             tickSpacing={tickSpacing}

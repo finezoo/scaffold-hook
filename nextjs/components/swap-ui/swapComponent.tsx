@@ -85,7 +85,7 @@ function SwapComponent() {
           {
             withdrawTokens: true,
             settleUsingTransfer: true,
-            currencyAlreadySent: false
+            currencyAlreadySent: false,
           },
           hookData as `0x${string}`,
         ],
@@ -96,7 +96,7 @@ function SwapComponent() {
       console.log("Swap initiated, transaction hash:", result.hash);
 
       // You might want to show transaction pending message until the transaction is confirmed
-    } catch (error) {
+    } catch (error: any) {
       setIsSwapping(false);
       setSwapError(error.message || "An error occurred during the swap.");
       console.error("Swap failed:", error);

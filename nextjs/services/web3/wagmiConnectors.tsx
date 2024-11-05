@@ -44,7 +44,7 @@ const arbitrumSepolia = {
 };
 
 // We always want to have mainnet enabled (ENS resolution, ETH price, etc). But only once.
-export const enabledChains = [arbitrumSepolia];
+export const enabledChains = [arbitrumSepolia, chains.sepolia];
 
 /**
  * Chains for the app
